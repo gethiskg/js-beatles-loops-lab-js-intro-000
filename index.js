@@ -67,3 +67,11 @@ function johnLennonFacts(array) {
   }
   return array;
 }
+function iLoveTheBeatles(number) {
+  var usedTo = [];
+  var i = 0;
+  do {
+    usedTo.push(`I love the Beatles`)
+  } while (i < 15);
+  return usedTo;
+}
