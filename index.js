@@ -71,7 +71,7 @@ function iLoveTheBeatles(number) {
   var usedTo = [];
   var i = 0;
   do {
-    usedTo.push(`I love the Beatles`)
+    usedTo.push(`I love the Beatles!`)
    i++;
  } while (number[i] < 15 );
   return usedTo;
