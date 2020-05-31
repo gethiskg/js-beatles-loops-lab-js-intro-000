@@ -73,6 +73,6 @@ function iLoveTheBeatles(number) {
   do {
     usedTo.push(`I love the Beatles!`)
    i++;
- } while (number[i] < 15 );
+ } while (number[i] < 15 && i < number );
   return usedTo;
 }
