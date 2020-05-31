@@ -72,6 +72,6 @@ function iLoveTheBeatles(number) {
   var i = 0;
   do {
     usedTo.push(`I love the Beatles`)
-  } while (i < 15);
+  } while (i <= 15 );
   return usedTo;
 }
